@@ -7,5 +7,7 @@ To install Python, follow these steps:
      **![Image](https://github.com/user-attachments/assets/1ce93939-5bf7-42d7-a666-80a1025c38fe)**
 3. Run the installer and follow the on-screen instructions.
 4. Make sure to check the option **"Add Python to PATH"** during installation (for Windows users).
+   **![Image](https://github.com/user-attachments/assets/0381993c-1b80-4e65-89ef-6ee62b6aa14c)**
+   **![Image](https://github.com/user-attachments/assets/85b6b345-f382-44a0-984f-3ca80434624d)**
 
 For more detailed instructions, refer to the [official Python documentation](https://docs.python.org/3/using/index.html).
