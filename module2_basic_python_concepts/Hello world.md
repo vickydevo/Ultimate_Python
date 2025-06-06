@@ -18,23 +18,61 @@ For example, you can enter the following in a Python REPL:
 
 ```python 
 'hello world'
-input('hello world ')
+
 repr ( 'hello world') 
-str ('hello world')
+
 ```
 
-### Differences Between `'hello world'`, `input('hello world ')`, `repr('hello world')`, and `str('hello world')`
-
-| Expression                  | Description                                                                 | Output                |
-|-----------------------------|-----------------------------------------------------------------------------|-----------------------|
-| `'hello world'`             | A string literal; just returns the string itself.                           | `'hello world'`       |
-| `input('hello world ')`     | Displays the prompt and waits for user input.                               | User's input (string) |
-| `repr('hello world')`       | Returns a string with quotes, showing how it would be typed in code.        | `"'hello world'"`     |
-| `str('hello world')`        | Returns the string in a readable form (no extra quotes).                    | `'hello world'`       |
-
-- Use `'hello world'` to represent a string.
-- Use `input('hello world ')` to prompt the user.
-- Use `repr()` to get the string's representation (useful for debugging).
-- Use `str()` to get a readable version of the string.
-
 This will display the prompt `hello world ` and wait for your input.
+
+## Mathematical Operations in Python  
+
+## Sample Python REPL Session
+
+Below is an example of how you can perform mathematical operations in the Python REPL:
+
+```
+>>> 1+5
+6
+>>> 6-3
+3
+>>> 9/3
+3.0
+>>> 20/3
+6.666666666666667
+>>> 20//3
+6
+>>> 20%3
+2
+>>> 20*5
+100
+>>> 2*2*2*2
+16
+>>> 2**4
+16
+>>> 3*5+2
+17
+>>> 3*(5+2)
+21
+>>>
+```
+## Structure of Mathematical Operations: operands and operators
+
+In Python, a mathematical operation consists of:
+
+- **Operands:** The values or variables being operated on (e.g., `3`, `5`, `2`).
+- **Operators:** The symbols that specify the operation (e.g., `+`, `-`, `*`, `/`, `//`, `%`, `**`).
+
+### Examples from above:
+
+- `20 // 3`  
+    - Operands: `20`, `3`
+    - Operator: `//` (floor division)
+
+- `2 ** 4`  
+    - Operands: `2`, `4`
+    - Operator: `**` (exponentiation)
+
+
+
+These examples show how operands and operators combine to form mathematical expressions in Python.
