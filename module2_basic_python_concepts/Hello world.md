@@ -150,15 +150,6 @@ name = input("What is your name? ")
 print("Hello, " + name + "!")
 ```
 
-You said:
->>> name = input("What is your name? ")
-What is your name? vignan
->>> print(name)
-vignan
->>> print('Hello', name)
-Hello vignan
->>> print("Item\t Qty \nApple\t 5\nPlain\t 10")
-Item     Qty
 ```
 >>> name = input("What is your name? ")
 What is your name? vignan
@@ -174,3 +165,44 @@ Plain    10
 
 The above session demonstrates how to use the `input()` function to interact with the user and how to print formatted output using escape characters like `\t` (tab) and `\n` (newline).
 When you run this code, it will prompt the user to enter their name and then greet them using the provided input.
+
+
+## String Operations in Python
+
+String operations refer to the various ways you can manipulate and work with strings in Python. These operations include concatenation, repetition, indexing, slicing, and more.
+
+### Common String Operations
+
+- **Concatenation:** Joining two or more strings using the `+` operator.
+- **Repetition:** Repeating a string multiple times using the `*` operator.
+- **Indexing:** Accessing individual characters in a string using their position (index).
+- **Slicing:** Extracting a substring from a string using a range of indices.
+- **Membership:** Checking if a substring exists within a string using `in` or `not in`.
+
+### Examples
+
+```python
+# Concatenation
+greeting = "Hello, " + "World!"
+print(greeting)  # Output: Hello, World!
+
+# Repetition
+echo = "Hi! " * 3
+print(echo)  # Output: Hi! Hi! Hi! 
+
+# Indexing
+word = "Python"
+print(word[0])   # Output: P
+print(word[-1])  # Output: n
+
+# Slicing
+print(word[1:4])  # Output: yth
+print(word[:2])   # Output: Py
+print(word[2:])   # Output: thon
+
+# Membership
+print("Py" in word)     # Output: True
+print("java" not in word)  # Output: True
+```
+
+These operations make it easy to manipulate and analyze text data in Python.
