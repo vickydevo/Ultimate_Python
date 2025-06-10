@@ -238,7 +238,7 @@ print(f"The circumference of the circle is {round(circumference, 2)}cm²")
 
 **Output:**
 ```
-The circumference of the circle is 31.41592653589793
+The circumference of the circle is 31.41
 ```
 
 
