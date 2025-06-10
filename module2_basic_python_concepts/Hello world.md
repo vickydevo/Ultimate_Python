@@ -145,11 +145,6 @@ The `input()` function in Python is used to get user input from the keyboard. Wh
 
 ### Example
 
-```python
-name = input("What is your name? ")
-print("Hello, " + name + "!")
-```
-
 ```
 >>> name = input("What is your name? ")
 What is your name? vignan
