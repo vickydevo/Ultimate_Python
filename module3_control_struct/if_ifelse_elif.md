@@ -80,7 +80,7 @@ else:
 - Performs the selected operation and prints the result.
 - Uses `if`, `elif`, and `else` statements to control the flow based on the operator entered.
 
-## Temperature Conversion
+## Temperature Conversion  Exercise
 
 Convert temperatures between Celsius and Fahrenheit using conditional statements.
 
